@@ -1,3 +1,4 @@
 main {
-
+    transform: rotate(-10deg);
+    width: 1200px;
 }

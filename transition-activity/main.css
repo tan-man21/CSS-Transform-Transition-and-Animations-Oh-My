@@ -25,3 +25,19 @@ button {
 button:hover {
   background-color: cornflowerblue;
 }
+
+.caption-text{
+  position: relative;
+  top: 510px;
+  left: 80px;
+  color: ghostwhite;
+  width: 500px;
+  transition: 1s;
+}
+.caption-text h1{
+  text-align: left;
+}
+.caption:hover .caption-text{
+  transition: 1s;
+  transform: translateY(-325px);
+}
